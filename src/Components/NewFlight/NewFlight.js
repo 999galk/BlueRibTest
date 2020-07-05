@@ -26,7 +26,7 @@ class NewFlight extends React.Component {
 
   render() {
     return (
-      <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
+      <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-40-l mw6 shadow-5 center">
         <main className="pa4 black-80">
           <div className="measure">
             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
@@ -55,7 +55,7 @@ class NewFlight extends React.Component {
                 <label className="db fw6 lh-copy f6" htmlFor="departure">Departure</label>
                 <input
                   className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
-                  type="text"
+                  type="date"
                   name="departure"
                   id="departure"
                   onChange={this.onChange}
@@ -65,7 +65,7 @@ class NewFlight extends React.Component {
                 <label className="db fw6 lh-copy f6" htmlFor="landing">Landing</label>
                 <input
                   className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
-                  type="text"
+                  type="date"
                   name="landing"
                   id="landing"
                   onChange={this.onChange}

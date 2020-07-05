@@ -113,8 +113,8 @@ class Flights extends Component {
     };
  
 	return (
-		<div br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center>
-			<button onClick={() => this.props.history.push('/newFlight')}>Add New Flight</button>
+		<div className='flex flex-column'>
+			<button className="f6 link dim ba bw2 ph3 pv2 mb2 dib dark-blue w4 pointer" onClick={() => this.props.history.push('/newFlight')}>Add New Flight</button>
 		      <SortableTable
 		        data={Data}
 		        columns={columns}
