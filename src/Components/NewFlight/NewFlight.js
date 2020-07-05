@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import {Data} from '../Data';
+import {setData} from '../Data';
 
 class NewFlight extends React.Component {
   constructor(props) {
@@ -20,7 +20,7 @@ class NewFlight extends React.Component {
   }
 
   onSubmit = () => {
-    console.log({Data});
+    {setData(this.state)};
     // {Data}.Data.push(this.state); 
   }
 
