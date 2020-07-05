@@ -1,0 +1,105 @@
+fetch:
+
+fetchMeme = () => {
+	fetch("https://meme-api.herokuapp.com/gimme")
+	.then(res => res.json())
+	.then(meme => {
+		this.setState({memeImg : meme.url})
+	})
+}
+
+fetchCocktail = () => {
+	fetch("https://www.thecocktaildb.com/api/json/v1/1/random.php")
+	.then(res => res.json())
+	.then(data => {
+		const ingr = (Object.entries(data.drinks[0])).filter(arr => arr[0].includes('Ingredient')).filter(arr => arr[1]!==undefined&&arr[1]!==null).map(arr => arr[1]);
+		this.setState({cocktailImg : data.drinks[0].strDrinkThumb, cocktailName : data.drinks[0].strDrink, cocktailIngredients : ingr.join(', ')});
+	} , this.keepInArray((this.state.cocktailNum)+1));
+}
+
+//Carousel at cocktail generator with map into the Carousel
+
+//You can push catch on .then
+try{
+
+}.catch(err => console.log(err));
+
+//Implement prop var in a div text:
+const Rank = ({name, entries}) => {
+	return(
+		<div>
+			<div className='white f3'>
+				{`${name} , your current entry count is...`}
+			</div>
+			<div className='white f1 '>
+	        {entries}
+	      	</div>
+		</div>
+	);
+}
+
+
+import { Switch, Route, Redirect } from 'react-router-dom';
+
+//in App:
+render() {
+    return (
+      <div>
+        <Header />
+        <Switch>
+          <Route exact path='/' component={HomePage} />
+          <Route path='/shop' component={ShopPage} />
+          <Route exact path='/signin' render={() => this.props.currentUser ? <Redirect to='/' /> : <SignInUp/>} />
+          <Route exact path='/checkout' component={CheckoutPage} />
+        </Switch>
+      </div>
+    );
+  }
+
+  //in Header:
+  const Header = ({currentUser, hidden}) => {
+	return (
+	<HeaderContainer>
+		<LogoContainer to="/">
+			<Logo className='logo'/>
+		</LogoContainer>
+		<OptionsContainer>
+			<OptionLink to='/shop'>SHOP</OptionLink>
+			{
+				currentUser ?
+				<OptionLink as='div' onClick={() => auth.signOut()}>SIGN OUT</OptionLink>
+				: (<OptionLink to='/signin'>LOGIN</OptionLink>)
+			}
+			<CartIcon/>
+		</OptionsContainer>
+		{
+			hidden ? null : <CartDropdown/>
+		}
+	</HeaderContainer>
+	)
+}
+
+//in component:
+import { withRouter } from 'react-router-dom';
+const CartDropdown = ({cartItems, history, dispatch}) => {
+	return(
+		<CartDropdownContainer>
+			<CartItemsContainer>
+			{
+				cartItems.length ?
+				cartItems.map(cartItem => (
+					<CartItem key={cartItem.id} item={cartItem} />
+					))
+				:
+				<EmptyMessageContainer>Your cart is empty</EmptyMessageContainer>
+			}
+			</CartItemsContainer>
+			<CustomButtonStyles onClick={() => {
+				history.push('/checkout');
+				dispatch(toggleCartHidden());
+				}}
+			>GO TO CHECKOUT
+			</CustomButtonStyles>
+		</CartDropdownContainer>
+	)
+}
