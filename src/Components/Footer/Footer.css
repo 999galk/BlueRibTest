@@ -1,0 +1,31 @@
+.footer-container{
+	height: 100px;
+	width:100vw;
+	background-color: rgb(64, 64, 65);
+	color:white;
+	position: absolute;
+	bottom:0;
+	z-index:10;
+	display: flex;
+    align-items: center;
+}
+.footer-links{
+	max-width: 50%;
+	margin-left:auto;
+	margin-right: auto;
+	direction: rtl;
+}
+.footer-links ul{
+	display: flex;
+	list-style-type: none;
+	padding-top: 5%;
+}
+.footer-link{
+	margin-right:30px;
+	font-size: 18px;
+	list-style-type: none;
+}
+.footer-link a{
+	text-decoration: none;
+	color:white;
+}

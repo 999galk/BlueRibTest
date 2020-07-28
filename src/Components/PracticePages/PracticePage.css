@@ -1,0 +1,17 @@
+.practice-page-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #57585A;
+}
+.practice-title{
+	font-weight: bold;
+	margin-top: 100px;
+}
+.practice-text{
+	text-align: center;
+	padding:0 10%;
+}
+.practice-text h2{
+	padding:20px 0px;
+}

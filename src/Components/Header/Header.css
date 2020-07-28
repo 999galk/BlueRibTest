@@ -1,0 +1,116 @@
+.header-wrapper{
+    max-height: 100%;
+}
+.header-container{
+	background: url(../Header/origin_reduced.jpg)no-repeat center 0% / cover;
+    margin-top: 0;
+    width:100%;
+    height:100vh;
+}
+.round-container{
+	position: absolute;
+    left: 50%;
+    width: 590px;
+    height: 590px;
+    text-align: center;
+    z-index: 2;
+    top: 500px;
+    margin-top: -295px;
+}
+
+.rounded-welcome{
+	position: relative;
+    left: -50%;
+    background: rgba(14, 42, 76, 0.7);
+    width: 520px;
+    height: 520px;
+    padding: 49px 0px 25px;
+    margin-right: -295px;
+    border-radius: 50%;
+}
+
+.rounded-welcome h1{
+	font-size: 58px;
+    margin-bottom: 0px;
+    color: #FFF;
+    font-family: Bebas;
+    font-weight: bold;
+}
+
+.rounded-welcome h2 {
+    font-size: 38px;
+    font-weight: normal;
+    padding: 0 0 15px;
+    color: #FFF;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 28px;
+    margin-bottom: 40px;
+}
+
+.scroll-home {
+    bottom: 29px;
+	height: 90px;
+    width: 201px;
+    border-radius: 70px;
+}
+.clear{
+	clear: both;
+}
+
+@media only screen and (max-width: 1285px), screen and (max-device-width: 1580px) and (min-device-width: 1024px){
+	.round-container{
+		width: 510px;
+	    height: 510px;
+	    top: 425px;
+	    margin-top: -231px;
+	    margin-right: -231px;
+	}
+	.rounded-welcome {
+	    width: 510px;
+	    height: 510px;
+	    padding: 55px 0px 25px;
+	}
+	.rounded-welcome h1{
+		font-size: 58px;
+	}
+	.rounded-welcome h2{
+		font-size: 36px;
+	}
+	.scroll-home {
+	    bottom: 29px;
+		height: 50px;
+	    width:120px;
+	    border-radius: 70px;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.round-container{
+	    left: 0px;
+	    width: 100%;
+	    height: 380px;
+	    top:400px;
+	}
+	.rounded-welcome {
+	    left: 0;
+	    background: transparent;
+	    width: 100%;
+	    height: 380px;
+	    padding: 0px;
+	    margin-right: 0;
+	    border-radius: 0;
+	}
+	.rounded-welcome h1{
+		padding-top: 20%;
+		font-size: 45px;
+	}
+	.rounded-welcome h2{
+		font-size: 28px;
+	}
+	.scroll-home {
+	    bottom: 29px;
+		height: 50px;
+	    width:120px;
+	    border-radius: 70px;
+	}
+}

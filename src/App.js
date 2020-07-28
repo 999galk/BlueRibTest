@@ -1,10 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import SignIn from './Components/SignIn/SignIn';
-import Flights from './Components/Flights/Flights';
-import NewFlight from './Components/NewFlight/NewFlight';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import Home from './Components/Home/Home';
+import PracticePage from './Components/PracticePages/ParcticePage';
+import ArticlePage from './Components/ArticlePages/ArticlePage';
+import { withRouter,Switch, Route, Redirect } from 'react-router-dom';
+import "../node_modules/slick-carousel/slick/slick.css"; 
+import "../node_modules/slick-carousel/slick/slick-theme.css";
+import Nav from './Components/Nav/Nav';
+import Footer from './Components/Footer/Footer';
 
 class App extends React.Component{
   constructor(props){
@@ -14,15 +18,17 @@ class App extends React.Component{
 
   render() {
     return (
-      <div>
+      <div className='App'>
+        <Nav/>
         <Switch>
-          <Route exact path='/' component={SignIn}/>
-          <Route exact path='/flights' component={Flights}/>
-          <Route exact path='/newFlight' component={NewFlight}/>
+          <Route exact path='/' component={Home}/>
+          <Route exact path='/practice/:id' component={PracticePage}/>
+          <Route exact path='/article/:id' component={ArticlePage}/>
         </Switch>
+        <Footer/>
       </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);
