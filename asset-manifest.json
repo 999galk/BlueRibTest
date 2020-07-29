@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/SH-Law/static/css/main.1627997f.chunk.css",
+    "main.js": "/SH-Law/static/js/main.46b34885.chunk.js",
+    "main.js.map": "/SH-Law/static/js/main.46b34885.chunk.js.map",
+    "runtime-main.js": "/SH-Law/static/js/runtime-main.1e9449e0.js",
+    "runtime-main.js.map": "/SH-Law/static/js/runtime-main.1e9449e0.js.map",
+    "static/css/2.476f98bf.chunk.css": "/SH-Law/static/css/2.476f98bf.chunk.css",
+    "static/js/2.6be2812d.chunk.js": "/SH-Law/static/js/2.6be2812d.chunk.js",
+    "static/js/2.6be2812d.chunk.js.map": "/SH-Law/static/js/2.6be2812d.chunk.js.map",
+    "index.html": "/SH-Law/index.html",
+    "precache-manifest.387fc1733655e759d8aebe4cc6ee70c8.js": "/SH-Law/precache-manifest.387fc1733655e759d8aebe4cc6ee70c8.js",
+    "service-worker.js": "/SH-Law/service-worker.js",
+    "static/css/2.476f98bf.chunk.css.map": "/SH-Law/static/css/2.476f98bf.chunk.css.map",
+    "static/css/main.1627997f.chunk.css.map": "/SH-Law/static/css/main.1627997f.chunk.css.map",
+    "static/js/2.6be2812d.chunk.js.LICENSE.txt": "/SH-Law/static/js/2.6be2812d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/SH-Law/static/media/Bebas-Regular.6f6f82d9.ttf",
+    "static/media/About.css": "/SH-Law/static/media/IMG_0149.d3b7c05f.JPG",
+    "static/media/LOGO_2 PNG.png": "/SH-Law/static/media/LOGO_2 PNG.8d672828.png",
+    "static/media/People-at-Work.jpg": "/SH-Law/static/media/People-at-Work.af2eaf64.jpg",
+    "static/media/arrow_down2.png": "/SH-Law/static/media/arrow_down2.44f28ff5.png",
+    "static/media/hitech.png": "/SH-Law/static/media/hitech.d65822ce.png",
+    "static/media/internet.png": "/SH-Law/static/media/internet.73a921b3.png",
+    "static/media/linkedin-icon-32.png": "/SH-Law/static/media/linkedin-icon-32.524c4df3.png",
+    "static/media/logo.svg": "/SH-Law/static/media/logo.5d5d9eef.svg",
+    "static/media/mishari.png": "/SH-Law/static/media/mishari.8ff0446b.png",
+    "static/media/Header.css": "/SH-Law/static/media/origin_reduced.3f7a4162.jpg",
+    "static/media/pin.png": "/SH-Law/static/media/pin.8aa01028.png",
+    "static/media/slick-theme.css": "/SH-Law/static/media/slick.f97e3bbf.svg",
+    "static/media/Articles.css": "/SH-Law/static/media/stock-photo-selective-focus-of-the-stacking-magazine-place-on-table-in-living-room-662452171.a18b8bee.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e9449e0.js",
+    "static/css/2.476f98bf.chunk.css",
+    "static/js/2.6be2812d.chunk.js",
+    "static/css/main.1627997f.chunk.css",
+    "static/js/main.46b34885.chunk.js"
+  ]
+}
