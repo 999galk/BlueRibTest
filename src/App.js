@@ -21,9 +21,9 @@ class App extends React.Component{
       <div className='App'>
         <Nav/>
         <Switch>
-          <Route exact path='/' component={Home}/>
           <Route exact path='/practice/:id' component={PracticePage}/>
           <Route exact path='/article/:id' component={ArticlePage}/>
+          <Route path='/' component={Home}/>
         </Switch>
         <Footer/>
       </div>
