@@ -18,7 +18,8 @@ class Contact extends React.Component{
 		this.state={
 			showingInfoWindow: false,  //Hides or the shows the infoWindow
 		    activeMarker: {},          //Shows the active marker upon click
-		    selectedPlace: {}          //Shows the infoWindow to the selected place upon a marker
+		    selectedPlace: {},
+		    wasUpdated : false       //Shows the infoWindow to the selected place upon a marker
 		}
 	}
 
@@ -42,22 +43,30 @@ class Contact extends React.Component{
 		window.open("https://www.google.com/maps/place/HaArba'a+St+28,+Tel+Aviv-Yafo/@32.0702795,34.7838695,17z/data=!3m1!4b1!4m5!3m4!1s0x151d4b9d680ff7c7:0x7b569c8815ba00a4!8m2!3d32.0702795!4d34.7860582", '_blank');
 	}
 	componentDidMount(){
-		if(document.querySelector('#contact > div')){
-			document.querySelector('#contact > div').children[2].children[0].id='innerMap';
-			document.querySelector('#contact > div').children[2].children[0].style.maxWidth='100%';
-			document.querySelector('#contact > div').children[2].children[0].style.maxHeight='550px';
-			document.querySelector('#contact > div').children[2].children[0].style.left='0';
-			document.querySelector('#contact > div').children[2].children[0].style.backgroundColor='#f3f3f3';
+		let screenWidth = window.screen.width;
+		console.log(screenWidth);
+		if(document.querySelector('#map-container-click > div')){
+			let mapDiv = document.querySelector('#map-container-click > div');
+			mapDiv.style.left='0';
+			mapDiv.style.maxHeight='550px';
+			// document.querySelector('#contact > div').children[2].children[0].id='innerMap';
+			// document.querySelector('#contact > div').children[2].children[0].style.maxWidth=screenWidth;
+			// document.querySelector('#contact > div').children[2].children[0].style.maxHeight='550px';
+			// document.querySelector('#contact > div').children[2].children[0].style.left='0';
+			// document.querySelector('#contact > div').children[2].children[0].style.backgroundColor='#f3f3f3';
+			this.setState({wasUpdated : true});
 		}
 	}
 
 
 
 	render(){
+		console.log('render');
 		return(
 			<div className='contact-wrapper' id='contact'>
 				<div className='contact-container'>
-					<h1 className='contact-title'>CONTACT</h1>
+					<h1 className='contact-title'>צור קשר</h1>
+					<h3 className='contact-subtitle'>השאר פרטים ונחזור אליך בהקדם</h3>
 					<form>
 					  <div className="form-row">
 					    <div className="col">
@@ -69,11 +78,11 @@ class Contact extends React.Component{
 					  </div>
 					  <div className="form-group row" id='submit-button'>
 					    <div className="col-sm-12">
-					      <button type="submit" className="btn btn-primary">צור קשר</button>
+					      <button type="submit" className="btn btn-primary">שלח!</button>
 					    </div>
 				  	</div>
 					</form>
-					<div onClick={this.directToMap}>
+					<div id='map-container-click' onClick={this.directToMap}>
 					<Map
 			        google={this.props.google}
 			        zoom={17}

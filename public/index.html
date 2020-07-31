@@ -54,5 +54,22 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      var isScrolling;
+      $(window).scroll(function(e) {
+        $('.navbar').addClass("navbar-hide");
+        window.clearTimeout( isScrolling );
+        // add/remove class to navbar when scrolling to hide/show
+        var scroll = $(window).scrollTop();
+        isScrolling = setTimeout(function() {
+
+          // Run the callback
+          $('.navbar').removeClass("navbar-hide");
+          console.log( 'Scrolling has stopped.' );
+
+        }, 1500);
+
+    });
+    </script>
   </body>
 </html>

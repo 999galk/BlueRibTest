@@ -29,3 +29,18 @@
 	text-decoration: none;
 	color:white;
 }
+
+@media screen and (max-width: 479px) {
+	.footer-container{
+		bottom:unset;
+	}
+	.footer-links{
+		max-width: 90%;
+	}
+	.footer-links ul{
+		padding:0;
+	}
+	.footer-link{
+		margin-right: 12px;
+	}
+}

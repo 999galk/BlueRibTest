@@ -23,59 +23,62 @@
     font-weight: bold;
 }
 .practices-cards-container{
-	display: grid;
+	/*display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	align-content: center;
+	align-content: center;*/
 	direction: rtl;
-	max-width: 60%;
+	width: 55%;
 }	
 
 .card-container{
 	display: flex;
 	justify-content: center;
-	flex-direction: column;
 	background-color: white;
 	border-radius: 8px;
 	text-align: center;
 	margin:8px;
 	cursor: pointer;
-	min-width:25%;
-	padding-bottom: 70px;
+/*	min-width:25%;*/
+/*	padding-bottom: 70px;
 	padding-left: 10px;
 	padding-right: 10px;
-	margin-bottom: 50px;
+	margin-bottom: 50px;*/
 }
 .card-image{
 	height: 250px;
 	width: 250px;
-	margin-left: auto;
-    margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding:15px;
 }
-.card-title{
-	font-size:35px;
+.card-description{
+	height: 250px;
 	max-width: 80%;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 25px;
-	margin-top: 0;
 	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	align-items: center;
+	padding:15px;
+}
+.card-title{
+	font-size:35px;
+	margin-bottom: 10px;
 	color: #57585A;
-	min-height: 100px;
 }
 .card-text{
 	font-size: 20px;
 	color: #57585A;
-	max-width: 80%;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 @media only screen and (max-width: 1285px), screen and (max-device-width: 1580px) and (min-device-width: 1024px){
 	.practices-title{
 		font-size: 50px;
-
-
+	}
+	.card-description{
+		height: 175px;
 	}
 	.card-image{
 		height: 175px;
@@ -85,7 +88,6 @@
 	}
 	.card-title{
 		font-size:24px;
-		min-height: 100px;
 		font-weight: bold;
 	}
 	.card-text{
@@ -97,7 +99,9 @@
 @media screen and (max-width: 935px) {
 	.practices-title{
 		font-size: 35px;
-
+	}
+	.card-description{
+		height: 125px;
 	}
 	.card-image{
 		height: 125px;
@@ -106,8 +110,7 @@
 	    margin-right: auto;
 	}
 	.card-title{
-		font-size:20px;
-		min-height: 100px;
+		font-size:18px;
 	}
 	.card-text{
 		font-size: 14px;
@@ -120,14 +123,12 @@
 		padding-top: 20px;
 	}
 	.practices-cards-container{
-		display: grid;
-		grid-template-columns: 1fr;
-		max-width: 100%;
+		width: 90%;
 	}
-	.card-title{
+/*	.card-title{
 		font-size:22px;
 	}
 	.card-text{
 		font-size: 16px;
-	}
+	}*/
 }

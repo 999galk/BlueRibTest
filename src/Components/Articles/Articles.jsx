@@ -7,41 +7,33 @@ import { withRouter } from 'react-router-dom';
 
 class Articles extends React.Component {
   render() {
-  	console.log('render');
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: isMobile?1:3,
-      slidesToScroll: 1
-    };
     return (
       <div className='articles-wrapper' id='articles'>
       <div className='articles-cover'>
       <div className='articles-container'>
         <h2>מאמרים</h2>
-        <Slider {...settings}>
-          <div className='article-card-wrapper shadow-2' onClick={() => this.props.history.push(`/article/crowdfunding`)}>
+        <div className='articles-grid'>
+          <div className='article-card-wrapper shadow-2 grow' onClick={() => this.props.history.push(`/article/crowdfunding`)}>
           	<img src={people}/>
             <h3>מימון המונים</h3>
             <p>טקסט<br/>טקסט<br/>טקסט<br/>טקסט<br/>טקסט<br/>טקסט<br/>טקסט</p>
           </div>
-          <div className='article-card-wrapper shadow-2' onClick={() => this.props.history.push(`/article/founders-agreement`)}>
+          <div className='article-card-wrapper shadow-2 grow' onClick={() => this.props.history.push(`/article/founders-agreement`)}>
           	<img src={people}/>
             <h3>הסכם מייסדים</h3>
             <p>טקסט<br/>טקסט<br/>טקסט<br/>טקסט<br/>טקסט<br/>טקסט<br/>טקסט</p>
           </div>
-          <div className='article-card-wrapper shadow-2' onClick={() => this.props.history.push(`/article/business-covid19`)}>
+          <div className='article-card-wrapper shadow-2 grow' onClick={() => this.props.history.push(`/article/business-covid19`)}>
           	<img src={people}/>
             <h3>מדריך לעסקים - הישרדות בימי קורונה</h3>
             <p>טקסט<br/>טקסט<br/>טקסט<br/>טקסט<br/>טקסט<br/>טקסט<br/>טקסט</p>
           </div>
-          <div className='article-card-wrapper shadow-2' onClick={() => this.props.history.push(`/article/business-covid19`)}>
+          <div className='article-card-wrapper shadow-2 grow' onClick={() => this.props.history.push(`/article/business-covid19`)}>
             <img src={people}/>
             <h3>מדריך לעסקים - הישרדות בימי קורונה</h3>
             <p>טקסט<br/>טקסט<br/>טקסט<br/>טקסט<br/>טקסט<br/>טקסט<br/>טקסט</p>
           </div>
-        </Slider>
+          </div>
         </div>
         </div>
       </div>

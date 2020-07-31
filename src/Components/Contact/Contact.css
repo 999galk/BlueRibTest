@@ -24,12 +24,15 @@
 }
 .contact-title{
 	font-size: 75px;
-	margin-top: 80px;
-	color: rgba(187,54,70,0.86);
+	/*color: rgba(187,54,70,0.86);*/
     font-weight: bold;
-    margin-bottom: 100px;
-    font-family: bebas;
+    /*font-family: bebas;*/
+    margin-bottom: 20px;
     padding-top:50px;
+    letter-spacing: -3px;
+}
+.contact-subtitle{
+	margin-bottom: 40px;
 }
 .pin-image{
 	z-index: 9;
@@ -51,8 +54,44 @@
 	max-width: 50px;
 	margin-top: 10px;
 }
+.btn-primary{
+	background-color:#efc981;
+	font-size: 22px;
+	border:none;
+	direction: rtl;
+}
 @media screen and (max-width: 479px) {
 	#innerMap{
-		width:70%;
+
 	}
+	.form-row{
+		flex-direction: column;
+	}
+	.form-row>.col, .form-row>[class*=col-] {
+		margin-bottom: 12px;
+	}
+	.contact-title{
+		font-size: 40px;
+		padding-top: 20px;
+		margin-top: 40px;
+	}
+	.pin-image{
+		width:150px;
+		top: 50px;
+	}
+	.contact-text{
+		max-width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+		top: 360px;
+		margin-bottom: 100px;
+	}
+	.contact-text h3{
+		font-size:15px;
+		font-weight: bold;
+	} 
+	.contact-container form {
+    	margin-bottom: 60px;
+    }
+
 }

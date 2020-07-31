@@ -1,8 +1,8 @@
 {
-  "homepage": "https://999galk.github.com/SH-Law/public",
   "name": "blue_ribbon_test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://999galk.github.com/SH-Law",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

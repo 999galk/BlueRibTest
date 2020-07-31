@@ -23,3 +23,12 @@ code {
   font-family: Bebas;
   src: url(./Bebas-Regular.ttf);
 }
+.navbar {
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.navbar-hide {
+    pointer-events: none;
+    opacity: 0;
+}
