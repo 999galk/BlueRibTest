@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2fcb8d4a84bd1e25d8aee1cd261db6f",
+    "revision": "2001f952443395a9c8f29615733047bc",
     "url": "/SH-Law/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SH-Law/static/css/2.476f98bf.chunk.css"
   },
   {
-    "revision": "763dddb0e4f27f82eff4",
-    "url": "/SH-Law/static/css/main.fd675c30.chunk.css"
+    "revision": "cdf9b049080a2307c44d",
+    "url": "/SH-Law/static/css/main.87a9a948.chunk.css"
   },
   {
     "revision": "33421191067deda2c78f",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SH-Law/static/js/2.04339bfc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "763dddb0e4f27f82eff4",
+    "revision": "cdf9b049080a2307c44d",
     "url": "/SH-Law/static/js/main.d40783e8.chunk.js"
   },
   {
