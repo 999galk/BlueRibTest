@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2001f952443395a9c8f29615733047bc",
+    "revision": "b8090074b9917d6c4d2e3472bc106214",
     "url": "/SH-Law/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SH-Law/static/css/2.476f98bf.chunk.css"
   },
   {
-    "revision": "cdf9b049080a2307c44d",
-    "url": "/SH-Law/static/css/main.87a9a948.chunk.css"
+    "revision": "adff49604c7b76c0afee",
+    "url": "/SH-Law/static/css/main.139e7275.chunk.css"
   },
   {
     "revision": "33421191067deda2c78f",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SH-Law/static/js/2.04339bfc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cdf9b049080a2307c44d",
+    "revision": "adff49604c7b76c0afee",
     "url": "/SH-Law/static/js/main.d40783e8.chunk.js"
   },
   {
@@ -68,10 +68,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SH-Law/static/media/mishari.8ff0446b.png"
   },
   {
-    "revision": "9f509e96c27de11cb46e7d6d2b87de49",
-    "url": "/SH-Law/static/media/papers-1600x900.9f509e96.jpg"
-  },
-  {
     "revision": "8aa010284c496c941a53e0b4e0008b3f",
     "url": "/SH-Law/static/media/pin.8aa01028.png"
   },
@@ -90,5 +86,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/SH-Law/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "df94134d3485a3a7bf0776c20ee9dc28",
+    "url": "/SH-Law/static/media/stock-photo-close-up-businessman-hand-writing-working-with-modern-computer-594534617.df94134d.jpg"
   }
 ]);
