@@ -27,7 +27,7 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	align-content: center;*/
 	direction: rtl;
-	width: 55%;
+	width: 45%;
 }	
 
 .card-container{
@@ -80,6 +80,9 @@
 	.card-description{
 		height: 175px;
 	}
+	.practices-cards-container{
+		width:50%;
+	}
 	.card-image{
 		height: 175px;
 		width: 175px;
@@ -102,6 +105,9 @@
 	}
 	.card-description{
 		height: 125px;
+	}
+	.practices-cards-container{
+		width:55%;
 	}
 	.card-image{
 		height: 125px;
