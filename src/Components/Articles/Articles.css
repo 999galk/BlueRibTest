@@ -4,7 +4,7 @@
 	background: url(./stock-photo-close-up-businessman-hand-writing-working-with-modern-computer-594534617.jpg)no-repeat center 0% / cover;
 }
 .articles-cover{
-	/*background-color: rgba(124, 113, 116,0.5);*/
+	background-color: rgba(237, 241, 244,0.5);
 	height: 100vh;
 	width:100vw;
     /*padding:50px 10px;*/
@@ -47,7 +47,7 @@
 	padding-top:50px;
 	font-size: 75px;
 	margin-bottom: 50px;
-	color: white;
+	color: #57585A;
 	letter-spacing: -4px;
     font-weight: bold;
 }
