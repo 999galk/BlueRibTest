@@ -82,6 +82,9 @@
 		margin-right: auto;
 		padding-top: 30px;
 	}
+	.article-card-wrapper{
+		overflow: hidden;
+	}
 	.article-card-wrapper h3{
 		font-size:12px;
 		min-height: 50px;
