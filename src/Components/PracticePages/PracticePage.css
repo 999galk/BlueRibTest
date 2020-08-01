@@ -3,15 +3,31 @@
 	justify-content: space-between;
 	align-items: center;
 	color: #57585A;
+	overflow: auto;
+	
 }
 .practice-title{
+	font-size:50px;
 	font-weight: bold;
-	margin-top: 100px;
+	margin-top: 150px;
+	padding:0 10%;
 }
 .practice-text{
-	text-align: center;
+	text-align: right;
 	padding:0 10%;
+	direction: rtl;
+	margin-bottom: 200px;
 }
 .practice-text h2{
 	padding:20px 0px;
+	text-align: center;
+}
+.practice-text h3{
+	padding:20px 0px;
+	text-align: center;
+}
+@media screen and (max-width: 620px) {
+	.practice-title{
+		font-size: 2.4rem;
+	}
 }

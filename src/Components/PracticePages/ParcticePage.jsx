@@ -11,7 +11,7 @@ const PracticePage = () => {
 	console.log('name:', practiceName);
 	return(
 		<div className='practice-page-wrapper'>
-			<div className='practice-page-container'>
+			<div className='practice-page-container shadow-2'>
 			{
 				practiceName === 'internet'?
 				<Internet/>
@@ -29,8 +29,6 @@ const PracticePage = () => {
 					)
 
 			}
-			</div>
-			<div className='more-practices'>
 			</div>
 		</div>
 	);
