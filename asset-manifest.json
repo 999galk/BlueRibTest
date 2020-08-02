@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/SH-Law/static/css/main.672e91e6.chunk.css",
-    "main.js": "/SH-Law/static/js/main.72be4bc4.chunk.js",
-    "main.js.map": "/SH-Law/static/js/main.72be4bc4.chunk.js.map",
+    "main.css": "/SH-Law/static/css/main.daf8afa3.chunk.css",
+    "main.js": "/SH-Law/static/js/main.7ec6cb77.chunk.js",
+    "main.js.map": "/SH-Law/static/js/main.7ec6cb77.chunk.js.map",
     "runtime-main.js": "/SH-Law/static/js/runtime-main.1e9449e0.js",
     "runtime-main.js.map": "/SH-Law/static/js/runtime-main.1e9449e0.js.map",
     "static/css/2.476f98bf.chunk.css": "/SH-Law/static/css/2.476f98bf.chunk.css",
-    "static/js/2.6ed1a7cc.chunk.js": "/SH-Law/static/js/2.6ed1a7cc.chunk.js",
-    "static/js/2.6ed1a7cc.chunk.js.map": "/SH-Law/static/js/2.6ed1a7cc.chunk.js.map",
+    "static/js/2.08a0822f.chunk.js": "/SH-Law/static/js/2.08a0822f.chunk.js",
+    "static/js/2.08a0822f.chunk.js.map": "/SH-Law/static/js/2.08a0822f.chunk.js.map",
     "index.html": "/SH-Law/index.html",
-    "precache-manifest.8d2ed6aaa00f010f89ff26787ec9d598.js": "/SH-Law/precache-manifest.8d2ed6aaa00f010f89ff26787ec9d598.js",
+    "precache-manifest.a7ec3686b7fc51fcf37f2a8e38c192fd.js": "/SH-Law/precache-manifest.a7ec3686b7fc51fcf37f2a8e38c192fd.js",
     "service-worker.js": "/SH-Law/service-worker.js",
     "static/css/2.476f98bf.chunk.css.map": "/SH-Law/static/css/2.476f98bf.chunk.css.map",
-    "static/css/main.672e91e6.chunk.css.map": "/SH-Law/static/css/main.672e91e6.chunk.css.map",
-    "static/js/2.6ed1a7cc.chunk.js.LICENSE.txt": "/SH-Law/static/js/2.6ed1a7cc.chunk.js.LICENSE.txt",
+    "static/css/main.daf8afa3.chunk.css.map": "/SH-Law/static/css/main.daf8afa3.chunk.css.map",
+    "static/js/2.08a0822f.chunk.js.LICENSE.txt": "/SH-Law/static/js/2.08a0822f.chunk.js.LICENSE.txt",
     "static/media/index.css": "/SH-Law/static/media/Bebas-Regular.6f6f82d9.ttf",
     "static/media/About.css": "/SH-Law/static/media/IMG_0149.d3b7c05f.JPG",
-    "static/media/Header.css": "/SH-Law/static/media/Optimized-origin_reduced.ea9b4269.jpg",
     "static/media/People-at-Work.jpg": "/SH-Law/static/media/People-at-Work.af2eaf64.jpg",
     "static/media/arrow_down2.png": "/SH-Law/static/media/arrow_down2.44f28ff5.png",
     "static/media/hitech.png": "/SH-Law/static/media/hitech.d65822ce.png",
@@ -25,14 +24,15 @@
     "static/media/logo.svg": "/SH-Law/static/media/logo.5d5d9eef.svg",
     "static/media/mishari.png": "/SH-Law/static/media/mishari.8ff0446b.png",
     "static/media/pin.png": "/SH-Law/static/media/pin.8aa01028.png",
+    "static/media/Header.css": "/SH-Law/static/media/rendered.47c2bf12.jpg",
     "static/media/slick-theme.css": "/SH-Law/static/media/slick.f97e3bbf.svg",
     "static/media/Articles.css": "/SH-Law/static/media/stock-photo-close-up-businessman-hand-writing-working-with-modern-computer-594534617.df94134d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1e9449e0.js",
     "static/css/2.476f98bf.chunk.css",
-    "static/js/2.6ed1a7cc.chunk.js",
-    "static/css/main.672e91e6.chunk.css",
-    "static/js/main.72be4bc4.chunk.js"
+    "static/js/2.08a0822f.chunk.js",
+    "static/css/main.daf8afa3.chunk.css",
+    "static/js/main.7ec6cb77.chunk.js"
   ]
 }
