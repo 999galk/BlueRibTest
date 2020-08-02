@@ -18,14 +18,14 @@ class Articles extends React.Component {
             <h3>מימון המונים</h3>
             <p>טקסט<br/>טקסט<br/>טקסט<br/>טקסט</p>
           </div>
+          <div className='article-card-wrapper shadow-2 grow' onClick={() => this.props.history.push(`/article/site-terms`)}>
+            <img src={people}/>
+            <h3>תקנון אתר אינטרנט</h3>
+            <p>טקסט<br/>טקסט<br/>טקסט<br/>טקסט</p>
+          </div>
           <div className='article-card-wrapper shadow-2 grow' onClick={() => this.props.history.push(`/article/founders-agreement`)}>
           	<img src={people}/>
             <h3>הסכם מייסדים</h3>
-            <p>טקסט<br/>טקסט<br/>טקסט<br/>טקסט</p>
-          </div>
-          <div className='article-card-wrapper shadow-2 grow' onClick={() => this.props.history.push(`/article/business-covid19`)}>
-          	<img src={people}/>
-            <h3>מדריך לעסקים - הישרדות בימי קורונה</h3>
             <p>טקסט<br/>טקסט<br/>טקסט<br/>טקסט</p>
           </div>
           <div className='article-card-wrapper shadow-2 grow' onClick={() => this.props.history.push(`/article/business-covid19`)}>

@@ -60,10 +60,30 @@
 	border:none;
 	direction: rtl;
 }
-@media screen and (max-width: 479px) {
-	#innerMap{
 
+@media only screen and (max-width: 1285px), screen and (max-device-width: 1580px) and (min-device-width: 1024px){
+	
+
+}
+@media screen and (max-width: 935px) {
+	.contact-title{
+		font-size: 50px;
 	}
+	.pin-image{
+		width:200px;
+		top: -30px;
+	}
+	.contact-text{
+		top:285px;
+		margin-bottom: 100px;
+	}
+	.contact-container form{
+		margin-bottom: 100px;
+	}
+	
+}
+
+@media screen and (max-width: 620px) {
 	.form-row{
 		flex-direction: column;
 	}

@@ -12,7 +12,6 @@ const Header = () => {
 			<div className='round-container'>
 				<div className='rounded-welcome'>
 					<h1 className="upper-case">Welcome to<br/>SH-Law<br/>Law Offices</h1>
-					<h2 className="upper-case">Tech Law Experts</h2>
 					<a href="#about"><img className="scroll-home" src={arrow}/></a>
 				</div>
 			</div>

@@ -24,21 +24,21 @@ class Practices extends React.Component{
 			<div className='practices-container'>
 				<h1 className='practices-title'>תחומי עיסוק</h1>
 				<div className='practices-cards-container'>
-					<div className='card-container grow' id='commercial-law' onClick={() => this.props.history.push(`/practice/commercial-law`)}>
+					<div className='card-container' id='commercial-law' onClick={() => this.props.history.push(`/practice/commercial-law`)}>
 						<img src={internet} className='card-image'/>
 						<div className='card-description'>
 							<h1 className='card-title'>משפט מסחרי-עסקי</h1>
 							<p className='card-text'>פסקה קצרה מתארת את העיסוק</p>
 						</div>
 					</div>
-					<div className='card-container grow' id='hitech' onClick={() => this.props.history.push(`/practice/hitech`)}>
+					<div className='card-container' id='hitech' onClick={() => this.props.history.push(`/practice/hitech`)}>
 						<img src={hitech} className='card-image'/>
 						<div className='card-description'>
 							<h1 className='card-title'>הייטק</h1>
 							<p className='card-text'>פסקה קצרה מתארת את העיסוק</p>
 						</div>
 					</div>
-					<div className='card-container grow' id='capital-market' onClick={() => this.props.history.push(`/practice/capital-market`)}>
+					<div className='card-container' id='capital-market' onClick={() => this.props.history.push(`/practice/capital-market`)}>
 						<img src={internet} className='card-image'/>
 						<div className='card-description'>
 							<h1 className='card-title'>שוק ההון</h1>

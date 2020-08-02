@@ -68,6 +68,9 @@
 	.articles-grid{
 		max-width: 85%;
 	}
+	.articles-wrapper h2{
+		font-size: 50px;
+	}
 }
 
 @media screen and (max-width: 620px) {
